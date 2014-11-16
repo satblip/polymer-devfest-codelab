@@ -1,0 +1,22 @@
+body {
+  background-color: #E5E5E5;
+  font-family: 'RobotoDraft', sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+core-toolbar {
+  background: #638E57;
+  color: white;
+}
+paper-tabs {
+  text-transform: uppercase;
+}
+
+@media (min-width: 481px) {
+  .container {
+    width: 400px;
+  }
+}
